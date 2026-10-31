@@ -17,6 +17,11 @@
 
 **Project Goal:** ReWear AI connects people who want to buy, sell, exchange, or donate pre-loved clothing through a single sustainable fashion marketplace.
 
+## What I'm working on
+1. make online payment with all possible ways
+2. ai camera (for wear the cloths)
+3. fixing some another bugs
+
 ## Online payment with automatic confirmation (Razorpay + Supabase)
 
 Flow: Pay → Pay online → Paytm / PhonePe / Google Pay (opens straight in that app) → Razorpay tells our `razorpay-webhook` function → order becomes `paid` → the checkout screen shows the confirmation by itself (Supabase Realtime). There is no "I have paid" button.
